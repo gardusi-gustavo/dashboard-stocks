@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   deploy:
-    uses: gardusi-gustavo/devops/.github/workflows/pages.yml@main
+    uses: gardusi-gustavo/devops/.github/workflows/pages.yml@v0.1.0
     with:
       build_command: python3 scripts/build.py --database _database --out dist
     secrets: inherit

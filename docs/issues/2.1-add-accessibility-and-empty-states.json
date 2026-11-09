@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Add accessibility and empty states",
+  "context": "The current page is a placeholder.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add landmarks, labels, and empty states.",
+    "expected_outcome": "The page passes a basic accessibility review.",
+    "acceptance_criteria": [
+      "Landmarks exist",
+      "Keyboard navigation works"
+    ]
+  },
+  "attempts": []
+}

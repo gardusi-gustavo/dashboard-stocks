@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add history charts",
+  "context": "History is not visualized.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add static charts or sparklines.",
+    "expected_outcome": "A reader can compare recent history.",
+    "acceptance_criteria": [
+      "Charts are static",
+      "Missing history is handled"
+    ]
+  },
+  "attempts": []
+}

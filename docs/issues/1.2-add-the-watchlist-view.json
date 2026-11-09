@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add the watchlist view",
+  "context": "There is no watchlist view.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Render watched tickers from the dataset.",
+    "expected_outcome": "A reader can see the watchlist.",
+    "acceptance_criteria": [
+      "Watchlist is deterministic",
+      "Empty state is shown"
+    ]
+  },
+  "attempts": []
+}

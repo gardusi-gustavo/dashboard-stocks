@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Build movements from database",
+  "context": "The dashboard is still a placeholder.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add the build-time database contract.",
+    "expected_outcome": "The site builds from a pinned database checkout.",
+    "acceptance_criteria": [
+      "No runtime database call",
+      "Build fails on missing data"
+    ]
+  },
+  "attempts": []
+}

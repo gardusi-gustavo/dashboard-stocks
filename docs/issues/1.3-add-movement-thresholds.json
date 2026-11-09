@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add movement thresholds",
+  "context": "The 3/5/10 percent rules are not visible.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add threshold classes and labels.",
+    "expected_outcome": "Each movement is classified consistently.",
+    "acceptance_criteria": [
+      "Thresholds are documented",
+      "Boundary cases are tested"
+    ]
+  },
+  "attempts": []
+}

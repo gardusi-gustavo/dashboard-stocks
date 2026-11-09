@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Dispatch rebuild on database merge",
+  "context": "The dashboard does not rebuild after data changes.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Wire repository_dispatch for database-updated.",
+    "expected_outcome": "A database merge rebuilds the site.",
+    "acceptance_criteria": [
+      "Dispatch is documented",
+      "Schedule fallback exists"
+    ]
+  },
+  "attempts": []
+}

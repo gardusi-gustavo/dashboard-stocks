@@ -1,0 +1,22 @@
+{
+  "rank": "1.1",
+  "title": "Define provider failover, rate limits, and corporate actions",
+  "context": "Define how stock ingestion handles provider failure, rate limits, and corporate",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define provider failover, rate limits, and corporate actions",
+    "expected_outcome": "Confirm the migrated scope and acceptance criteria.",
+    "acceptance_criteria": [
+      "Failover is documented and tested.",
+      "Rate limits are enforced.",
+      "Gaps are detected and repaired.",
+      "Corporate actions update history.",
+      "Staleness is visible.",
+      "A provider can be disabled without data loss."
+    ]
+  },
+  "attempts": []
+}

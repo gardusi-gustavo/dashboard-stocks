@@ -1,0 +1,22 @@
+{
+  "rank": "1.2",
+  "title": "Define the quote and history schema with market calendar",
+  "context": "Define the price, history, and market-calendar records used by stocks ingestion.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define the quote and history schema with market calendar",
+    "expected_outcome": "Confirm the migrated scope and acceptance criteria.",
+    "acceptance_criteria": [
+      "Schema is documented and versioned.",
+      "Timestamps use a defined timezone.",
+      "The market calendar is authoritative.",
+      "Adjusted and unadjusted prices are distinct.",
+      "Invalid records are rejected.",
+      "Fixtures cover holidays and partial sessions."
+    ]
+  },
+  "attempts": []
+}

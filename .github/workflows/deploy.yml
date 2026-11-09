@@ -1,0 +1,24 @@
+name: deploy
+on:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [database-updated]
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    uses: gardusi-gustavo/devops/.github/workflows/pages.yml@main
+    with:
+      build_command: python3 scripts/build.py --database _database --out dist
+    secrets: inherit

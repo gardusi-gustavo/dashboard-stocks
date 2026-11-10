@@ -1,6 +1,6 @@
 # dashboard-stocks
 
-B3 movement dashboard. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database` at build time; there is no runtime CORS call.
+B3 movement dashboard. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database-stocks` at build time; there is no runtime CORS call.
 
 ## Repository facts
 

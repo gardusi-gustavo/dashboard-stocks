@@ -43,7 +43,7 @@ def render(dataset: dict) -> str:
 <style>body{{font-family:system-ui,sans-serif;max-width:60rem;margin:2rem auto;padding:0 1rem}}code{{background:#eee;padding:.1rem .3rem}}</style>
 </head><body>
 <h1>{TITLE}</h1>
-<p>Built from <code>gardusi-gustavo/database</code>. Date: <code>{html.escape(str(dataset.get("date", "")))}</code>.</p>
+<p>Built from <code>gardusi-gustavo/database-stocks</code>. Date: <code>{html.escape(str(dataset.get("date", "")))}</code>.</p>
 <h2>Records</h2><ul>{rows}</ul>
 <script id="dataset" type="application/json">{payload}</script>
 </body></html>

@@ -18,7 +18,9 @@ concurrency:
 
 jobs:
   deploy:
-    uses: gardusi-gustavo/workflow-devops/.github/workflows/pages.yml@v0.1.0
+    uses: gardusi-gustavo/.github/.github/workflows/reusable-pages.yml@v0.1.1
     with:
       build_command: python3 scripts/build.py --database _database --out dist
+      database_repository: gardusi-gustavo/database-stocks
+      database_path: _database
     secrets: inherit

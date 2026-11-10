@@ -52,7 +52,7 @@
   },
   "data_classification": "public",
   "depends_on": [
-    "gardusi-gustavo/database"
+    "gardusi-gustavo/database-stocks"
   ],
   "consumers": [],
   "files": {

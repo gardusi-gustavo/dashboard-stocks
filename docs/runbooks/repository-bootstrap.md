@@ -14,7 +14,7 @@ by `workflow-devops/infra/scripts/github/bootstrap.sh` after the mirror exists.
 - Dependabot: `.github/dependabot.yml`
 - Code owners: `.github/CODEOWNERS`
 - Public repositories carry public data only
-- Ingested data lives in `gardusi-gustavo/database` and arrives by PR
+- Ingested data lives in `gardusi-gustavo/database-stocks` and arrives by PR
 
 ## Machine record
 
